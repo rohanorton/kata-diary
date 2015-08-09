@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "mocha tests.js",
+    "test:watch": "npm run test -- -w"
+  },
+  "dependencies": {
+    "mocha": "^2.2.5"
+  }
+}
