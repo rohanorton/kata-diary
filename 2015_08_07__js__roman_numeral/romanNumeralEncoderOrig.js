@@ -1,17 +1,6 @@
 /*jslint node:true*/
 'use strict';
 
-// Why is this good?
-//
-// I find it fairly straightforward to reason about, it's clear
-//
-// What's not so good?
-//
-// It's probably fairly slow (loop, variable reassignment?).
-// I mean, obviously the fastest solution would be to just have a
-// hash ...
-//
-
 module.exports = function romanNumeralEncoder(num) {
     var returnString = '';
 

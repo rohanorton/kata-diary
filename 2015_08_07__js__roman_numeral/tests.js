@@ -3,7 +3,7 @@
 
 'use strict';
 
-var romanNumeralEncoder = require('./romanNumeralEncoder.js');
+var romanNumeralEncoder = require('./romanNumeralEncoderOrig.js');
 var assert = require('assert');
 
 var numbers = [
