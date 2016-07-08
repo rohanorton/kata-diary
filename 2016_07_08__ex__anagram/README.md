@@ -14,19 +14,3 @@ It also helped that I'd already come across the difference between strings and
 char-lists in my reading, which I think would have been a head-scratcher
 otherwise.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add anagram to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:anagram, "~> 0.0.1"}]
-        end
-
-  2. Ensure anagram is started before your application:
-
-        def application do
-          [applications: [:anagram]]
-        end
-
