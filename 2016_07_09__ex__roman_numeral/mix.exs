@@ -27,6 +27,8 @@ defmodule RomanNumeral.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:mix_test_watch, "~> 0.2", only: :dev}]
+    [{:mix_test_watch, "~> 0.2", only: :dev},
+     {:excheck, "~> 0.3", only: :test},
+     {:triq, github: "krestenkrab/triq", only: :test}]
   end
 end
