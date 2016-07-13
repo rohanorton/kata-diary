@@ -1,24 +1,8 @@
 # BowlingGame
 
-**TODO: Add description**
+Really not very happy with how this went. I just about managed to get all tests
+passing, though am not convinced by the solution. I also wanted to refactor to
+make conditional stuff clearer, but don't think it's possible in case statement.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add `bowling_game` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:bowling_game, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `bowling_game` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:bowling_game]]
-    end
-    ```
-
+I think this is a problem that I'd like to revisit in elixir after getting a bit
+more comfortable with the language.
